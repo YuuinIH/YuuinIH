@@ -20,7 +20,7 @@ I‘m Yuuin.
 - 🏙 I‘m a student and looking for a job.
 
 - 🌱 I’m currently learning : Distributed storage/Flink/React/Unity
-- ⭐ I'm interested in: CloudNative/DevOps/SRE/Distributed storage/Game Design
+- ⭐ I'm interested in: System Design/DevOps/SRE/Distributed storage/Game Design
 - 🤔 I’m looking to collaborate on: DevOps/Game Design
 
 ## 🌟 My Skill 
