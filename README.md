@@ -3,7 +3,7 @@ I‘m Yuuin.
 
 - 🏙 I am a senior in college and looking for a job.
 
-- 🌱 I’m currently learning : Distributed storage/Flink/React/Unity
+- 🌱 I’m currently learning : Distributed storage/Flink/React/Unity/Japanese
 - ⭐ I'm interested in: System Design/DevOps/SRE/Distributed storage/Game Design
 - 🤔 I’m looking to collaborate on: DevOps/Game Design
 
@@ -13,6 +13,7 @@ I‘m Yuuin.
 - Linux
 - Vue.js
 - Node.js
+- Kubernetes
 
 ![Metrics](/github-metrics.svg)
 	
