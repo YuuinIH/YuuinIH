@@ -1,7 +1,7 @@
 
 I‘m Yuuin.
 
-- 🏙 I am a senior in college and looking for a job.
+- 📖 I‘m goling to prepare the postgraduate entrance exam! Please cheer me on!!!!
 
 - 🌱 I’m currently learning : Distributed storage/Flink/React/Unity/Fultter/Japanese/English
 - ⭐ I'm interested in: System Design/DevOps/SRE/Distributed storage/Game Design
