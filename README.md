@@ -3,7 +3,7 @@ I‘m Yuuin.
 
 - 📖 I‘m goling to prepare the postgraduate entrance exam! Please cheer me on!!!!
 
-- 🌱 I’m currently learning : Distributed storage/Flink/React/Unity/Fultter/Japanese/English
+- 🌱 I’m currently learning : C++/Distributed storage/Flink/React/Unity/Fultter/Japanese/English
 - ⭐ I'm interested in: System Design/DevOps/SRE/Distributed storage/Game Design
 - 🤔 I’m looking to collaborate on: DevOps/Game Design
 
