@@ -14,6 +14,7 @@ I‘m Yuuin.
 - Vue.js
 - Node.js
 - Kubernetes
+- AWS
 
 ![Metrics](/github-metrics.svg)
 	
