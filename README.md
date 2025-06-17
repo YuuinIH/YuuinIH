@@ -1,7 +1,7 @@
 
 I‘m Yuuin.
 
-- 🌱 I’m currently learning : C++/Distributed storage/Flink/React/Unity/Fultter/Japanese/English
+- 🌱 I’m currently learning : C++/Unity/UE5
 - ⭐ I'm interested in: System Design/DevOps/SRE/Distributed storage/Game Design
 - 🤔 I’m looking to collaborate on: DevOps/Game Design
 
