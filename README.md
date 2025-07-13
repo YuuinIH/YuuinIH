@@ -1,12 +1,15 @@
 
 I‘m Yuuin.
 
-- 🌱 I’m currently learning : C++/Unity/UE5
+- 🌱 I’m currently learning : C++/Rust/Unity/UE5
 - ⭐ I'm interested in: System Design/DevOps/SRE/Distributed System/Game Design
 - 🤔 I’m looking to collaborate on: DevOps/Game Design
 
 ## 🌟 My Skill 
 - Golang
+- TypeScript
+- Python
+- C++
 - Docker
 - Linux
 - Vue.js
