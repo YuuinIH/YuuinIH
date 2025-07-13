@@ -2,7 +2,7 @@
 I‘m Yuuin.
 
 - 🌱 I’m currently learning : C++/Unity/UE5
-- ⭐ I'm interested in: System Design/DevOps/SRE/Distributed storage/Game Design
+- ⭐ I'm interested in: System Design/DevOps/SRE/Distributed System/Game Design
 - 🤔 I’m looking to collaborate on: DevOps/Game Design
 
 ## 🌟 My Skill 
