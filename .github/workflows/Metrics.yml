@@ -6,6 +6,9 @@ on:
   workflow_dispatch:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "github-metrics.svg"
+      - "profile-3d-contrib/**"
 
 jobs:
   github-metrics:
@@ -16,7 +19,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
 
-          base: ""
+          template: terminal
+          base: header, metadata
+          config_animations: yes
+          config_display: large
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
