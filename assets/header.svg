@@ -1,0 +1,91 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Yuuin systems profile banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="52%" stop-color="#0a1024"/>
+      <stop offset="100%" stop-color="#14071f"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#35f2ff">
+        <animate attributeName="stop-color" values="#35f2ff;#8b5cf6;#35f2ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#ff4fd8;#8b5cf6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff4fd8">
+        <animate attributeName="stop-color" values="#ff4fd8;#35f2ff;#ff4fd8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#5ddcff" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .title { font-size: 74px; font-weight: 800; letter-spacing: 5px; }
+      .subtitle { font-size: 17px; letter-spacing: 3px; fill: #a9b8da; }
+      .telemetry { font-size: 13px; letter-spacing: 1px; fill: #76d9e6; }
+      .dim { fill: #63739a; }
+      .blink { animation: blink 1.05s steps(1,end) infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
+      @keyframes blink { 0%,48% { opacity: 1 } 49%,100% { opacity: 0 } }
+      @keyframes pulse { 0%,100% { opacity: .45 } 50% { opacity: 1 } }
+      @media (prefers-reduced-motion: reduce) {
+        .blink, .pulse { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+
+  <g opacity=".25">
+    <circle cx="1030" cy="160" r="92" fill="none" stroke="#35f2ff" stroke-width="1.5"/>
+    <circle cx="1030" cy="160" r="62" fill="none" stroke="#8b5cf6" stroke-width="1"/>
+    <circle cx="1030" cy="160" r="32" fill="none" stroke="#ff4fd8" stroke-width="1"/>
+    <g>
+      <circle cx="1030" cy="68" r="5" fill="#35f2ff" filter="url(#softGlow)"/>
+      <circle cx="1092" cy="160" r="4" fill="#ff4fd8" filter="url(#softGlow)"/>
+      <circle cx="1030" cy="192" r="4" fill="#8b5cf6" filter="url(#softGlow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 1030 160" to="360 1030 160" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <path d="M938 160H1122M1030 68V252" stroke="#a9b8da" stroke-opacity=".35"/>
+  </g>
+
+  <g opacity=".65">
+    <path d="M0 44 H275 L296 65 H510" stroke="url(#neon)" stroke-width="2" fill="none"/>
+    <path d="M1200 274 H918 L896 252 H730" stroke="url(#neon)" stroke-width="2" fill="none"/>
+    <circle cx="511" cy="65" r="3" fill="#35f2ff" class="pulse"/>
+    <circle cx="729" cy="252" r="3" fill="#ff4fd8" class="pulse"/>
+  </g>
+
+  <text x="74" y="136" class="mono title" fill="url(#neon)" filter="url(#glow)">YUUIN//</text>
+  <text x="78" y="178" class="mono subtitle">SYSTEMS · DISTRIBUTED · ML INFRA · RUNTIME</text>
+
+  <g class="mono telemetry">
+    <text x="80" y="226"><tspan class="dim">STATUS</tspan><tspan dx="18" fill="#65f5b4">ONLINE</tspan></text>
+    <text x="260" y="226"><tspan class="dim">MODE</tspan><tspan dx="18" fill="#d8c7ff">BUILD / BREAK / UNDERSTAND</tspan></text>
+    <text x="80" y="254"><tspan fill="#35f2ff">&gt;</tspan><tspan dx="10" fill="#d9e7ff">software systems are where abstractions meet reality</tspan><tspan class="blink" fill="#ff4fd8">_</tspan></text>
+  </g>
+
+  <g opacity=".12">
+    <rect x="0" y="-18" width="1200" height="18" fill="url(#neon)">
+      <animate attributeName="y" from="-18" to="320" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="url(#neon)" stroke-opacity=".35" stroke-width="2"/>
+</svg>
