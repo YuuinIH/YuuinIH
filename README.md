@@ -1,15 +1,20 @@
-# Hi, I'm Yuuin.
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Yuuin systems banner" />
+</p>
 
-Software engineer and M.S. student in Computer Science at **Sun Yat-sen University**.  
-Previously worked at **AMD**.
+<p align="center">
+  Software engineer · M.S. student in Computer Science at <b>Sun Yat-sen University</b> · Previously at <b>AMD</b>
+</p>
 
-Interested in **Systems**, **Distributed Systems**, **ML Systems & AI Infrastructure**, **Cloud Native**, **Runtime Systems**, and **Game Systems**.
-
-`Go` · `TypeScript` · `Python` · `C++` · `Linux` · `Kubernetes` · `Docker`
+<p align="center">
+  <code>Go</code> · <code>TypeScript</code> · <code>Python</code> · <code>C++</code> · <code>Linux</code> · <code>Kubernetes</code> · <code>Docker</code>
+</p>
 
 ---
 
-![Metrics](/github-metrics.svg)
+![Systems telemetry](/github-metrics.svg)
+
+![3D contribution graph](./profile-3d-contrib/profile-night-rainbow.svg)
 
 <picture>
   <source
