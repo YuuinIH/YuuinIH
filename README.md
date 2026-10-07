@@ -1,25 +1,27 @@
+# Hi, I'm Yuuin.
 
-I‘m Yuuin.
+Software engineer and M.S. student in Computer Science at **Sun Yat-sen University**.  
+Previously worked at **AMD**.
 
-- 🌱 I’m currently learning : C++/Rust/Unity/UE5
-- ⭐ I'm interested in: AI Infrastructure/System Design/DevOps/SRE/Distributed System/Game Design & Architecture/Workflow
-- 🤔 I’m looking to collaborate on: DevOps/Game Design
-- 🎓 Starting Master's in CS at Sun Yat-sen University in September 2026
+Interested in **Systems**, **Distributed Systems**, **ML Systems & AI Infrastructure**, **Cloud Native**, **Runtime Systems**, and **Game Systems**.
 
-## 🌟 My Skill 
-- Golang
-- TypeScript
-- Python
-- C++
-- Vue.js
-- Node.js
+`Go` · `TypeScript` · `Python` · `C++` · `Linux` · `Kubernetes` · `Docker`
 
-### ☁️ Cloud Native & Kubernetes
-- Docker
-- Kubernetes
-- AWS
-- Linux
+---
 
 ![Metrics](/github-metrics.svg)
-	
-[![42](https://github-readme-stats.vercel.app/api/top-langs/?username=YuuinIH&count_private=true&layout=compact&theme=github_dark&hide_border=true)](#)
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/YuuinIH/YuuinIH/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/YuuinIH/YuuinIH/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="GitHub contribution snake"
+    src="https://raw.githubusercontent.com/YuuinIH/YuuinIH/output/github-contribution-grid-snake.svg"
+  />
+</picture>
